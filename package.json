@@ -1,7 +1,7 @@
 {
   "name": "cypressudemy",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000C\u0000y\u0000p\u0000r\u0000e\u0000s\u0000s\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "cy:run:chrome": "cypress run -b chrome"
@@ -11,5 +11,13 @@
   "devDependencies": {
     "cypress": "^9.7.0",
     "cypress-xpath": "^2.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomas-Paoletti/Cypress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tomas-Paoletti/Cypress/issues"
+  },
+  "homepage": "https://github.com/Tomas-Paoletti/Cypress#readme"
 }

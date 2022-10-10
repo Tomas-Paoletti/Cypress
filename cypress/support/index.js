@@ -14,10 +14,10 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
-Cypress.on('uncayght:exception', (err, runnable)=>{
-    return false
-})// con esto le hacemos bypas o saltamos los errores que pueda tener la pagina que no nos deje hacer los tests
+import "./commands";
+Cypress.on("uncayght:exception", (err, runnable) => {
+  return false;
+}); // con esto le hacemos bypas o saltamos los errores que pueda tener la pagina que no nos deje hacer los tests
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-require('cypress-xpath')
+require("cypress-xpath");

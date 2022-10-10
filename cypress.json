@@ -1,13 +1,4 @@
 {
-    "compilerOptions": {
-        "allowJs": true,
-        "baseUrl": "../node_modules",
-        "types": [
-          "cypress"
-        ]
-      },
-      "include": [
-        "**/*.*"
-      ]
-      
+  "experimentalSessionAndOrigin": true,
+  "experimentalSessionSupport": true
 }
